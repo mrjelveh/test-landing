@@ -7,16 +7,13 @@ import './custom-button.styles.css'
 const CustomButton = ({firstButton, children, btnStyle}) => { 
      
 return (
-  <button
-  className={`${btnStyle} First-button`} 
-  onClick={firstButton}>{children}</button>
+  <button   className={`${btnStyle} First-button`}   onClick={firstButton}>
+    {children}
+    </button>
 )
 }
-
-export default CustomButton; 
-
-
-
+     
+ export default CustomButton; 
 
 
 

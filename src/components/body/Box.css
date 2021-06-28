@@ -1,0 +1,45 @@
+.section-header {
+  width: 100%;
+  position: relative;
+}
+
+.curve-style {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+}
+
+.logo-style {
+  padding-top: 30px;
+  padding-left: 150px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex-container {
+  display: flex;
+  margin-top: 270px;
+  height: 250px;
+  align-items: center;
+}
+
+.flex-container > div {
+  background-color: #ffffff;
+  margin: 20px;
+  padding: 20px;
+  font-size: 30px;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}*/

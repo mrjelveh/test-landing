@@ -1,36 +1,32 @@
 .First-button {
   display: inline;
+  background-color: transparent;
   border-radius: 50px;
-  background-color: #f4511e;
   border: none;
   color: #ffffff;
   text-align: center;
   font-size: 16px;
-  padding: 10px;
-  width: 80px;
-  transition: all 0.5s;
+  width: 100px;
+}
+.First-button :hover {
+  background-color: #f4511e;
+  padding: 15px;
+  border-radius: 50px;
   cursor: pointer;
+}
+
+.primary {
   margin: 5px;
-  float: right;
-}
-.First-button .button:hover {
-  background-color: #3e8e41;
 }
 
-.btn-group .button {
-  background-color: #4caf50; /* Green */
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-  float: left;
+.box {
+  background-color: #360fa0;
+  padding: 15px;
+  font-size: 12px;
+  width: 100px;
 }
-
-.btn-group .button:not(:last-child) {
-  border-right: none; /* Prevent double borders */
+/* .btn-group .button:not(:last-child) {
+  border-right: none; /* Prevent double borders 
 }
 
 .btn-group .button:hover {
@@ -60,4 +56,4 @@
 .button:hover span:after {
   opacity: 1;
   right: 0;
-}
+} */
