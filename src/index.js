@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Menu from './Main.js';
+import Main from './components/body/Main.js';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Menu/>
+    <Main/>
   </React.StrictMode>,
   document.getElementById('root')
 );
